@@ -1,47 +1,51 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import Ash from '../assets/ashraf.jpg'
 
 class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}>
+          <Cell col={12}  style={{ position: 'relative', top: '10%'}}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src={Ash}
               alt="avatar"
               className="avatar-img"
               />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Junior 
+                <br />
+                Full Stack Web Developer
+              </h1>
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>
+            Ruby On Rail | HTML5/CSS3 | Bootstrap | JavaScript |
+            ReactJS | Redux | AWS | NodeJS | PostgreSQL | DynamoDB |
+            Serverless | C++ | Git | jQuery | REST API | SFTP | Heroku
+          </p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <a href="https://www.linkedin.com/in/ashrafuthman/" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+          <a href="https://github.com/ashrafuthman" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-github" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          {/* GitLab */}
+          <a href="https://gitlab.com/ashrafuthman" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-gitlab"  aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
+
 
         </div>
             </div>
