@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+import Ash from '../assets/ashraf.jpg';
 
 class Contact extends Component {
   render() {
@@ -8,14 +8,19 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Paul Hanna</h2>
+            <h2>Ashraf Uthman</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src={Ash}
               alt="avatar"
-              style={{height: '250px'}}
+              style={{height: '250px', borderRadius: 10}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+              I am willing to relocate to any country 
+              <br/>
+              including my home country 
+              <br/>
+              Israel
+            </p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
@@ -26,28 +31,28 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    (123) 456-7890
+                    +49 17665401446
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-fax" aria-hidden="true"/>
-                    (123) 456-7890
-                  </ListItemContent>
-                </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    someone@example.com
+                    ashrafuth@gmail.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
+                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                    <a href="https://www.linkedin.com/in/ashrafuthman/"
+                     rel="noopener noreferrer" 
+                     target="_blank"
+                     style={{textDecoration: 'none', color: '#0d76b3'}}
+                     >
+                     linkedin.com/in/ashrafuthman/
+                    </a>
                   </ListItemContent>
                 </ListItem>
 
