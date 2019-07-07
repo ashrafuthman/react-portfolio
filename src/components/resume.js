@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Ash from '../assets/ashraf.jpg'
 
 
 class Resume extends Component {
@@ -13,9 +14,11 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={Ash}
                 alt="avatar"
-                style={{height: '200px'}}
+                className="avatar-img-resume"
+
+                style={{height: '200px', textAlign: "left"}}
                  />
             </div>
 
@@ -84,7 +87,7 @@ class Resume extends Component {
             <Experience
               startYear={"NOV " + 2018}
               endYear={"AUG " + 2019}
-              jobName="Full Stack Developer at EcoG"
+              jobName="Full Stack Web Developer at EcoG"
               jobDescription="
               Frontend: Working with React.js using (Ant design and
               MaterialUI)
