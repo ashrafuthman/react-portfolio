@@ -23,9 +23,9 @@ class Landing extends Component {
             <hr/>
 
           <p>
-            Ruby On Rail | HTML5/CSS3 | Bootstrap | JavaScript |
+            Ruby On Rail | HTML5/CSS3 | Bootstrap | MaterialUI | Ant Design | JavaScript |
             ReactJS | Redux | AWS | NodeJS | PostgreSQL | DynamoDB |
-            Serverless | C++ | Git | jQuery | REST API | SFTP | Heroku | Ubuntu
+            Serverless | C++ | Git | jQuery | REST API | SFTP | Heroku | Ubuntu |
           </p>
 
         <div className="social-links">
